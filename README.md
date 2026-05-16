@@ -54,7 +54,7 @@
     }
 
     function connectSSE() {
-      const url = `https://ntfy.sh/${NTFY_TOPIC}/sse`;
+      const url = `https://ntfy.sh/${chaoistaoist-loco}/sse`;
       const es = new EventSource(url);
 
       es.onmessage = (event) => {
